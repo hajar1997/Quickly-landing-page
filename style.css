@@ -85,96 +85,160 @@ button:hover {
 /* NAVBAR END */
 
 /* HERO SECTION START */
-.hero {
-    height: 100vh;
-    background: #FAFAFA;
-}
-
-.hero-content {
+.row {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 130px;
-    gap: 120px;
 }
 
-img {
-    width: 350px;
-}
-
-.hero-text {
-    width: 557px;
+.hero .col-6 {
+    width: 50%;
+    height: 100vh;
     display: flex;
     flex-direction: column;
-    gap: 24px;
 }
 
-.hero-text h5 {
+.hero-img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.hero .texts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 70px;
+    height: 100vh;
+}
+
+.hero .texts h2 {
     font-weight: 700;
-    font-size: 18px;
-    line-height: 23px;
+    font-size: 35px;
+}
+
+.hero .texts h4 {
+    margin-top: 28px;
     color: #20484F;
+    font-weight: 400;
+    font-size: 18px;
 }
 
-.hero-text h1 {
-    position: relative;
-    font-weight: 700;
-    font-size: 64px;
-    line-height: 120%;
-    color: #072125;
-    z-index: 999;
+form {
+    margin-top: 28px;
+    width: 70%;
 }
-/* .h1-img{
-    z-index: 1;
-    position: absolute;
-    top: 272px;
-    left: 269px;
-    width: 415px;
-} */
-.hero-text h2 {
+
+input {
+    background: #FFFFFF;
+    border: 1px solid rgba(32, 72, 79, 0.1);
+    border-radius: 8px;
+    padding: 12px 24px 12px 16px;
+    gap: 10px;
+    width: 100%;
+    font-size: 16px;
+}
+
+input::placeholder {
+    color: rgba(32, 72, 79, 0.2);
+}
+
+input:focus {
+    outline: none;
+}
+
+label {
+    color: #072125;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 16px;
     line-height: 150%;
 }
 
-.hero-buttons {
-    margin-top: 28px;
+#checkbox {
+    border: 1px solid rgba(32, 72, 79, 0.2);
+    border-radius: 4px;
+    width: 18px;
 }
 
-.hero-buttons button a{
-    font-size: 18px;
-    font-family: 'Plus Jakarta Sans', sans-serif;
+.checkboxx {
+    display: flex;
+    align-items: center;
+    gap: 12px;
 }
 
-#first-hero-btn {
+label[for=checkbox] {
+    color: #072125;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+form button {
+    margin-top: 24px;
+    padding: 8px;
+    gap: 10px;
     background: #20484F;
     border-radius: 8px;
-    padding: 16px 36px 15px;
-    margin-right: 20px;
-}
-
-button {
+    width: 120px;
     border: none;
-}
-
-#first-hero-btn a {
-    color: white;
-}
-
-#second-hero-btn {
-    background: #FFFFFF;
-    padding: 16px 36px 15px;
-    border: 1px solid rgba(32, 72, 79, 0.1);
-    border-radius: 8px;
-}
-
-#second-hero-btn a {
-    color: #072125;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Plus Jakarta Sans';
 }
 
 /* HERO SECTION END */
 
+/* FEATURE BLOCKS START */
+.feature-blocks {
+    margin-top: 100px;
+    background: #20484F;
+    color: white;
+}
 
+.container {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.feature-blocks h3 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.feature-blocks h5 {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 12px;
+}
+
+.text-one h5 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.text-two h5 {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.feature-content {
+    padding-top: 83px;
+    padding-bottom: 100px;
+
+}
+
+.feature-with-icons .row {
+    margin-top: 59px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.feature-with-icons .col-3 {
+    width: 25%;
+}
+
+/* FEATURE BLOCKS END */
 
 
 

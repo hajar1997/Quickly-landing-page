@@ -242,8 +242,8 @@ form button {
 
 /* METRICS START */
 .metrics {
-    margin-top: 100px;
-    margin-bottom: 50px;
+    margin-top: 160px;
+    margin-bottom: 160px;
 }
 
 
@@ -301,7 +301,8 @@ form button {
 
 /* QUOTES START */
 .quotes {
-    margin-top: 100px;
+    margin-top: 160px;
+    margin-bottom: 160px;
 }
 
 .quotes img {
@@ -312,8 +313,8 @@ form button {
 
 /* CTA START */
 .cta {
-    margin-top: 70px;
-    margin-bottom: 70px;
+    margin-top: 160px;
+    margin-bottom: 160px;
     text-align: center;
 }
 
@@ -337,7 +338,6 @@ form button {
     width: 170px;
     border: none;
     color: #FFFFFF;
-
     font-size: 18px;
     font-weight: 300;
     font-family: 'Plus Jakarta Sans';
@@ -346,21 +346,150 @@ form button {
 /* CTA END */
 
 
+/* IMAGES START */
+.images {
+    margin-top: 200px;
+    margin-bottom: 160px;
+}
+
+.images .col-6 {
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.images h3 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #072125;
+}
+
+.hr-line {
+    margin-top: 30px;
+    width: 108px;
+    height: 8px;
+}
+
+.books {
+    width: 488px;
+    height: 488px;
+}
+
+.girl {
+    width: 488px;
+    height: 488px;
+}
+
+.second-col p {
+    margin-top: 30px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    color: #072125;
+}
+
+.second-col-heading {
+    color: #20484F;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+
+/* IMAGES END */
 
 
+/* TABS START */
+.tabs {
+    margin-top: 200px;
+    margin-bottom: 160px;
+}
+
+.tabs-content {
+    text-align: center;
+}
+
+.tabs-content h2 {
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    color: #072125;
+}
+
+.tabs-content h5 {
+    color: #072125;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.tabs-content ul {
+    margin-top: 52px;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.tabs-content ul li {
+    margin-right: 44px;
+}
+
+.tabs-content ul:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 52px;
+    left: 0;
+    background: rgba(32, 72, 79, 0.2);
+    height: 1px;
+    width: 100%;
+}
+
+.tabs-content ul .active:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 54px;
+    left: 0;
+    background: #20484F;
+    ;
+    height: 4px;
+    width: 100%;
+}
+
+.active {
+    position: relative;
+    color: #072125 !important;
+    font-weight: 700 !important;
+    font-size: 18px !important;
+    line-height: 23px !important;
+    padding: 5px;
+}
+
+.tabs-content ul li a {
+    color: #20484F;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+}
+
+.tabs-image {
+    margin-top: 83px;
+}
 
 
+/* TABS END */
 
-
-
-
-
-
-/* 
-header {
-    height: 416px;
-    margin-top: 106px;
-    margin-bottom: 120px;
+/* PAGE HEADERS START */
+.page-headers {
+    margin-top: 160px;
+    margin-bottom: 160px;
 }
 
 .header-content {
@@ -386,4 +515,70 @@ header {
     line-height: 120%;
     width: 809px;
     text-align: center;
-} */
+}
+
+/* PAGE HEADERS END */
+
+/* FOOTER START */
+footer {
+    margin-top: 100px;
+    background: #072125;
+}
+
+footer .row {
+    justify-content: space-between;
+}
+
+footer .logo {
+    margin: 0;
+}
+
+.more-space ul {
+    margin-top: 62px !important;
+}
+
+footer .col-3 {
+    margin-top: 60px;
+}
+
+footer h5 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    color: white;
+}
+
+.footer-ul {
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 27px;
+}
+
+.footer-ul li {
+    font-size: 16px;
+    color: #DCF2ED;
+    font-weight: 300;
+}
+
+footer hr {
+    background-color: #B8E4DA;
+    opacity: 0.2;
+    margin-top: 60px;
+}
+
+.footer-foot {
+    padding: 16px;
+
+}
+
+.footer-foot p {
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #DCF2ED;
+}
+
+/* FOOTER END */
